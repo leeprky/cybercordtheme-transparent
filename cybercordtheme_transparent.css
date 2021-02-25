@@ -818,7 +818,7 @@ body{
 	/* colour for the following things:
 	   - channel icon, text with "Today at ..." by message
 	   - "Message #channel/user" */
-	--text-muted: rgba(224, 224, 223, 0.829) !important;
+	--text-muted: rgb(255, 255, 255) !important;
   
 	/* colour of text in messages and discord logo in top
 	left hand corner */
@@ -829,7 +829,7 @@ body{
 	   - mute mic/deafen/user settings
 	   - mentions inbox
 	   - text names of settings */
-	   --interactive-normal: #dfdfdf !important;
+	   --interactive-normal: #ffffff !important;
   
 	   /* colour of text/button in interactive buttons (and text channel
 	   names) when hovered over */
@@ -840,7 +840,7 @@ body{
 	   --interactive-active: #ebeb20 !important;
 	 
 	   /* colour of muted channel names */
-	   --interactive-muted: #c0c0c0 !important;
+	   --interactive-muted: #f5eeee !important;
    
 	 }
   
@@ -1168,9 +1168,10 @@ html.theme-dark .theme-light {
 .inner-1ilYF7 {
     background: none !important;
 }
+
 .root-SR8cQa {
     background: inherit !important;
-    backdrop-filter: blur(10px) brightness(3) !important;
+    backdrop-filter: blur(10px) brightness(1) !important;
     border-radius: 10px !important;
 }
 .inner-1ilYF7 .body-3ND3kc {
