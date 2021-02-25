@@ -53,7 +53,7 @@ body{
 	--background-secondary: #2020200e;
 	--background-secondary-chat: #2f3136a0;
 	--background-secondary-alt: #292b2f00;
-	--background-tertiary: #45463525; /* CHANGE ENTIRE BACKGROUND COLOUR */
+	--background-tertiary: #0b384648; /* CHANGE ENTIRE BACKGROUND COLOUR */
 	--background-logo: #03030302;
 	--deprecated-card-bg: #36393f4c;
 	--deprecated-store-bg: #36393f00;
@@ -107,26 +107,7 @@ body{
 }
 
 .theme-light {
-	--background-primary: transparent;
-	--background-primary-alt: #ffffffff;
-	--background-secondary: #f2f3f550;
-	--background-secondary-chat: #f2f3f5a0;
-	--background-secondary-alt: #ebedef00;
-	--background-tertiary: #e3e5e860;
-	--background-logo: #f2f3f5a0;
-	--deprecated-card-bg: #f8f9f94c;
-	--deprecated-store-bg: #f8f9f900;
-	--background-attachments: #f6f6f640;
-	--background-search-bar: #e3e5e8a0;
-	--background-switcher: #f2f3f5ff;
-	--background-chatbox: #e3e5e850;
-	--background-lights-out: #fff;
-	--background-pinned: #f2f3f5ff;
-	--background-profile-expand: #f2f3f5ff;
-	--background-emoji: #f2f3f5ff;
-	--text-lights-out: #202020;
-	--background-titlebar: #f2f3f550;
-	--interactive-muted: #95999d;
+
 }
 
 .theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
@@ -459,6 +440,22 @@ body{
 
 /* CYBERCORD CSS */
 /* EDIT COLOURS HERE */ 
+
+/* Discord watermark text in top left hand corner */
+.wordmark-2iDDfm svg {
+    width: 0px;
+  }
+  .wordmark-2iDDfm:after {
+    font-family: "Discord";
+    content: "CYBERCORD!";
+    font-size: 15px;
+    background: rgb(255, 255, 255, 0.3);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 6px;
+  }
 
 /* color current channel cyan, and add arrow in front of it */
 [class*='modeSelected'] [class*='name']
