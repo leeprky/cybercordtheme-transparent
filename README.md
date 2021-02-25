@@ -18,6 +18,10 @@ Type "git clone https://github.com/leeprky/cybercordtheme-transparent"
 
 Refresh Discord
 
+## info
+
+If you want your server list at the top use https://github.com/DiscordStyles/HorizontalServerList
+
 ## license
 
 MIT, see LICENSE.md for more details
