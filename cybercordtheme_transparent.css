@@ -36,7 +36,7 @@ body{
 
 #app-mount{
 	background-color: transparent;
-	border-radius: 20px 20px 20px 20px; /* top left, top right, bottom right, bottom left */
+	border-radius: 10px 10px 10px 10px; /* top left, top right, bottom right, bottom left */
 	border-color: transparent);
 }
 
@@ -497,6 +497,61 @@ body{
         transform:rotate(360deg);
     }
 }
+
+/* Profile when clicked in member list */
+  /* footer colour */
+  .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0{
+    background-color: #ffff3d00 !important;
+  }
+
+  /* no idea what this does tbh */
+  .scroller-2FKFPG.systemPad-3UxEGl.bodyInner-245q0L {
+    background-color: #fde4007e !important;  /* edited from var(--background-secondary) */
+  }
+
+  /* role box backround colour */
+  .body-3iLsc4 {
+    background-color:  #292926d3 !important;
+  }
+
+  /* footer colour (where "Message @user" and "Right click user for more" are embedded) */
+  .footer-1fjuF6 {
+    background-color:  #4242417a !important;
+  }
+
+  /* colour of "Message @user" box */
+  .quickMessage-2XpSaN.quickMessage-1yeL4E {
+    background-color:  #4242417a !important;
+  }
+
+  /* colour of the "Playing" box */
+  .activityUserPopout-2yItg2.activity-11LB_k {
+    background-color:  #4242417a !important;
+  }
+
+  /* no idea what this does lol */
+  .button-1Pkqso.button-38aScr.lookOutlined-3sRXeN.colorWhite-rEQuAQ.buttonSize-2Pmk-w.fullWidth-1orjjo.grow-q77ONN {
+    background-color:  #4242417a !important;
+  }
+
+  /* Better Playing Modals, again from Luckfire#4800 :') */
+  .headerPlaying-j0WQBV, 
+  .topSectionPlaying-1J5E4n {
+    background-color:  #ffff38f8 !important;
+  }
+  .headerSpotify-zpWxgT, 
+  .topSectionSpotify-1lI0-P {
+    background-color:  #2aad18f6 !important;
+  }
+  .headerStreaming-2FjmGz, 
+  .topSectionStreaming-1Tpf5X {
+    background-color:  #8b1496f5 !important;
+  }
+
+  .userInfoSectionHeader-CBvMDh,
+  .note-QfFU8y {
+	 display: none;
+  }
 
 /* Show Discord, even when you're offline */
 .container-16j22k {
@@ -1028,7 +1083,7 @@ html.theme-dark .theme-light {
   }
 
   .backdrop-1wrmKB {
-    background: #00000055 !important;
+    background: #0000005b !important;
     opacity: 1 !important;
 }
 .inner-1ilYF7 {
@@ -1037,18 +1092,18 @@ html.theme-dark .theme-light {
 
 .root-SR8cQa {
     background: inherit !important;
-    backdrop-filter: blur(10px) brightness(1) !important;
+    backdrop-filter: blur(5px) brightness(1) !important;
     border-radius: 10px !important;
 }
 .inner-1ilYF7 .body-3ND3kc {
     background: transparent !important;
 }
 .topSectionSpotify-1lI0-P {
-    background: #1db954a8 !important;
+    background: #1db95496 !important;
 }
 .connectedAccount-36nQx7 {
     border: none;
-    background: #00000066 !important;
+    background: #0000009c !important;
     border-radius: 7px !important;
 }
 .userInfoSection-2acyCx+.userInfoSection-2acyCx {
@@ -1062,15 +1117,15 @@ html.theme-dark .theme-light {
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY {
     background: #00000066 !important;
-    border-radius: 7px !important;
+    border-radius: 15px !important;
 }
 .lookInverted-2D7oAl.colorGreen-29iAKY {
-    background: #1db954a8 !important;
+    background: #1db9545e !important;
     color: #fff !important;
     border-radius: 7px !important;
 }
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
-    background: #1db954ff !important;
+    background: rgba(29, 185, 84, 0.26) !important;
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
     background: #7289daa8 !important;
