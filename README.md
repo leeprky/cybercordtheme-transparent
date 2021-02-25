@@ -28,4 +28,6 @@ MIT, see LICENSE.md for more details
 
 ## previews
 
-![preview](./previews/cybercordtheme-transparent1.jpg.jpg)
+![preview](./previews/preview1jpg)
+![preview](./previews/preview2jpg)
+![preview](./previews/preview3jpg)
