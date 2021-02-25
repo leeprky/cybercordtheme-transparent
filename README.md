@@ -33,4 +33,4 @@ MIT, see LICENSE.md for more details
 
 ![preview](./previews/preview1.jpg)
 ![preview](./previews/preview2.jpg)
-![preview](./previews/preview3.png)
+![preview](./previews/preview3.jpg)
