@@ -1,31 +1,3 @@
-/**
- * @name Glasscord Example Theme
- * @description This theme showcases Glasscord's features: glassy Discord!
- * @author AryToNeX
- * @version 0.1
- * @source https://github.com/AryToNeX/Glasscord
- * @invite SftnByN
- * @patreon https://patreon.com/arytonex
- * @donate https://ko-fi.com/arytonex
- * @authorLink http://arytonex.pw
- * @requires Glasscord>=0.0.5
- */
-/*
-   Copyright 2020 AryToNeX
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-*/
-
 /* USRBG compatibility CSS */
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
@@ -46,7 +18,7 @@
 	--glasscord-linux-blur: true;
 
 	/* The corner radius of the blurry background */
-	--glasscord-blur-corner-radius: 20px;
+	--glasscord-blur-corner-radius: 18px;
 
 	/* Discord-specific properties */
 	/* Custom (forced) titlebar */
@@ -65,91 +37,6 @@
 	--usrbg-modal-height: 600px;
 }
 
-/* NORMAL */
-.reduce-motion .userPopout-3XzG_A {
-	transform: translateZ(0);
-}
-
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -2;
-	opacity: .6;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: var(--user-popout-position) center;
-	background-image: var(--user-background);
-	border-radius: 5px;
-}
-
-/* Glasscord additions to the normal header */
-.headerNormal-T_seeN {
-	z-index: 0;
-}
-
-.headerNormal-T_seeN::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #20222580;
-	z-index: -1;
-	border-radius: 5px;
-}
-
-.headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
-	z-index: 0;
-}
-
-.headerPlaying-j0WQBV::after, .headerStreaming-2FjmGz::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #7289da80;
-	z-index: -1;
-	border-radius: 5px;
-}
-
-.headerSpotify-zpWxgT {
-	z-index: 0;
-}
-
-.headerSpotify-zpWxgT::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #1db95480;
-	z-index: -1;
-	border-radius: 5px;
-}
-
-.body-3iLsc4 {
-	background: var(--background-secondary-chat) !important;
-	backdrop-filter: blur(5px);
-}
-
-.userPopout-3XzG_A::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: var(--background-pinned);
-	z-index: -1;
-}
 
 /* EXPANDED */
 .header-QKLPzZ .wrapper-3t9DeA::after {
@@ -210,11 +97,6 @@
 	z-index: -1;
 }
 
-.body-3ND3kc {
-	background-color: var(--background-secondary-chat) !important;
-	backdrop-filter: blur(5px);
-}
-
 /* USRBG compatibility end */
 
 body{
@@ -226,10 +108,12 @@ body{
 	border-radius: var(--glasscord-blur-corner-radius);
 }
 
+/* dd */ 
+
 .theme-dark{
-	--background-primary: transparent;
-	--background-primary-alt: #36393ff0;
-	--background-secondary: #2f313650;
+	--background-primary: #2020200e;
+	--background-primary-alt: #36393f15;
+	--background-secondary: #2020200e;
 	--background-secondary-chat: #2f3136a0;
 	--background-secondary-alt: #292b2f00;
 	--background-tertiary: #20222570;
@@ -239,14 +123,14 @@ body{
 	--background-attachments: #2f313640;
 	--background-search-bar: #202225a0;
 	--background-switcher: #2f3136ff;
-	--background-chatbox: #20222550;
+	--background-chatbox: transparent;
 	--background-lights-out: #000;
 	--background-pinned: #2f3136ff;
 	--background-profile-expand: #2f3136ff;
 	--background-emoji: #2f3136ff;
 	--text-lights-out: #f0f0f0;
 	--background-titlebar: #2f313650;
-    --scrollbar-auto-thumb: #20222550;
+    --scrollbar-auto-thumb: #f3ff47c5;
 }
 
 .auto-Ge5KZx::-webkit-scrollbar-track{
@@ -633,26 +517,6 @@ body{
 
 /* CYBERCORD CSS */
 
-/* VC backround image */
-.minimum-28Z35l > .root-217Brm,
-.video--KPXCT > .root-217Brm {
-  background:
-	url("https://cdn.discordapp.com/attachments/706617700776018034/814176274284150784/nebo-oblaka-windows-pustinia-barkhan.jpg") /* CHANGE IMAGE FOR VOICE CALLS HERE */
-	center/100% no-repeat;
-}
-.minimum-28Z35l > .root-217Brm::before,
-.video--KPXCT > .root-217Brm::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: rgba(87, 82, 82, 0.253);
-}
-.videoControls-24w7Xp > .topControls-KKImPZ > div > .headerWrapper-3NUKsd > .title-3qD0b-,
-.videoControls-24w7Xp > .topControls-KKImPZ > div > .headerWrapper-3NUKsd > .transparent-2ZlE3R  {
-  box-shadow: none !important;
-}
-
 /* color current channel cyan, and add arrow in front of it */
 [class*='modeSelected'] [class*='name']
 {
@@ -762,77 +626,77 @@ body{
   
   /* Better Topbar */
 :root {
-  --Roundness: 25px; /* Changes how round edges are | Default: 25px */
-}
-
-.children-19S4PO, .toolbar-1t6TWx {
-  background-color: rgba(0,0,0,0.2);
-  border-radius: var( --Roundness);
-  padding: 5px;
-  height: 30px;
-}
-.children-19S4PO::after {
-  display: none;
-}
-.children-19S4PO {
-  margin-right: 20px;
-}
-.input-2A_zIr, .input-2A_zIr:hover {
-    background-color: rgba(255,255,255,0);
-  margin-left: 10px;
-  border-radius: var( --Roundness);
-}
-.searchBar-3dMhjb {
-    width: 28px;
-    transition: width 0.3s ease-in-out;
-  border-radius: var( --Roundness);
-}
-.divider-3FBTu8 {
-    width: 2px;
-  height: 20px;
-}
-svg > .updateIconForeground-3tnNZn {
-  fill: var(--interactive-normal);
-}
-svg:hover > .updateIconForeground-3tnNZn {
-  fill: var(--interactive-hover);
-}
-svg:active > .updateIconForeground-3tnNZn {
-  fill: var(--interactive-active);
-}
-svg.icon-3cZ1F_ > path {
-  fill: var(--interactive-normal);
-}
-svg.icon-22AiRD {
-    color: var(--interactive-normal);
-}
-svg.icon-22AiRD:hover {
-    color: var(--interactive-hover);
-}
-.topic-TCb_qw {
-    color: var(--interactive-normal) !important;
-}
-.title-29uC1r {
-    color: var(--interactive-normal);
-}
-.title-29uC1r:hover {
-    color: var(--interactive-hover);
-}
-.status-1XNdyw:hover {
-    filter: brightness(1.5)!important
-}
-.channelName-qsg_a_ > div > .input-2A_zIr {
-    box-shadow: none !important;
-}
-
-.onlineFriends-friendsOnline {
-  animation: none;
-}
-
-/* Hide GIF and present boxes when typing a message */
-.button-3AYNKb {
+	--Roundness: 25px; /* Changes how round edges are | Default: 25px */
+  }
+  
+  .children-19S4PO, .toolbar-1t6TWx {
+	background-color: rgba(0,0,0,0.2);
+	border-radius: var( --Roundness);
+	padding: 5px;
+	height: 30px;
+  }
+  .children-19S4PO::after {
 	display: none;
   }
+  .children-19S4PO {
+	margin-right: 20px;
+  }
+  .input-2A_zIr, .input-2A_zIr:hover {
+	  background-color: rgba(255,255,255,0);
+	margin-left: 10px;
+	border-radius: var( --Roundness);
+  }
+  .searchBar-3dMhjb {
+	  width: 28px;
+	  transition: width 0.3s ease-in-out;
+	border-radius: var( --Roundness);
+  }
+  .divider-3FBTu8 {
+	  width: 2px;
+	height: 20px;
+  }
+  svg > .updateIconForeground-3tnNZn {
+	fill: var(--interactive-normal);
+  }
+  svg:hover > .updateIconForeground-3tnNZn {
+	fill: var(--interactive-hover);
+  }
+  svg:active > .updateIconForeground-3tnNZn {
+	fill: var(--interactive-active);
+  }
+  svg.icon-3cZ1F_ > path {
+	fill: var(--interactive-normal);
+  }
+  svg.icon-22AiRD {
+	  color: var(--interactive-normal);
+  }
+  svg.icon-22AiRD:hover {
+	  color: var(--interactive-hover);
+  }
+  .topic-TCb_qw {
+	  color: var(--interactive-normal) !important;
+  }
+  .title-29uC1r {
+	  color: var(--interactive-normal);
+  }
+  .title-29uC1r:hover {
+	  color: var(--interactive-hover);
+  }
+  .status-1XNdyw:hover {
+	  filter: brightness(1.5)!important
+  }
+  .channelName-qsg_a_ > div > .input-2A_zIr {
+	  box-shadow: none !important;
+  }
+  
+  .onlineFriends-friendsOnline {
+	animation: none;
+  }
+  
+  /* Hide GIF and present boxes when typing a message */
+  .button-3AYNKb {
+	  display: none;
+	}
 
   /* Better Channel Indicators by LuckFire*/
 
@@ -945,41 +809,117 @@ svg.icon-22AiRD:hover {
 	/* colour of links (including in embeds) */
 	--text-link: #D6D600;
   
-	/* colours of things when you hover over them; e.g. a channel/user */
-	--background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
-	--background-modifier-active: rgba(255, 255, 255, 0.03) !important;
-	--background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
-  
 	/* colour for the following things:
 	   - channel icon, text with "Today at ..." by message
 	   - "Message #channel/user" */
-	--text-muted: #e0dfdf96 !important;
+	--text-muted: rgba(224, 224, 223, 0.829) !important;
   
 	/* colour of text in messages and discord logo in top
 	left hand corner */
-	--text-normal: #ffffff !important;
+	--text-normal: #ffffffee !important;
   
 	/* colour of interactive buttons when looked at, e.g.:
 	   - pinned messages
 	   - mute mic/deafen/user settings
 	   - mentions inbox
 	   - text names of settings */
-	--interactive-normal: #dfdfdf !important;
+	   --interactive-normal: #dfdfdf !important;
   
-	/* colour of text/button in interactive buttons (and text channel
-	names) when hovered over */
-	--interactive-hover: #00D6D6 !important;
+	   /* colour of text/button in interactive buttons (and text channel
+	   names) when hovered over */
+	   --interactive-hover: #00D6D6 !important;
+	 
+	   /* colour of things that are currently selected (e.g. colour of
+	   channel name that you are participating in) */
+	   --interactive-active: #ebeb20 !important;
+	 
+	   /* colour of muted channel names */
+	   --interactive-muted: #c0c0c0 !important;
+   
+	 }
   
-	/* colour of things that are currently selected (e.g. colour of
-	channel name that you are participating in) */
-	--interactive-active: #ebeb20 !important;
-  
-	/* colour of muted channel names */
-	--interactive-muted: #838282 !important;
-
-  }
 /* CSS */
 
+/* No note on user modal */
+.note-3HfJZ5 { display: none; }
+.footer-1fjuF6 { padding-bottom: 17.5px; margin-top: -15px }
+.bodyTitle-Y0qMQz { display: none }
+.bodyInnerWrapper-Z8WDxe:before { 
+  content: 'Roles';
+  font-weight: 700;
+  color: var(--header-secondary);
+}
+
+/*Hide the original file size was too big text*/
+.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y {
+	font-size: 0px;
+	}
+	/*Replace the text with the first half "That was" but no bold*/
+	.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y:before {
+	content: 'That was';
+	font-size: 22px;
+	font-weight: normal;
+	}
+	/*Add the second half with italics*/
+	.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y:after {
+	content: ' fucking gay';
+	font-size: 22px;
+	font-style: italic;
+	}
+	/*Hide the original file size limit text, also make the width a little smaller*/
+	.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG {
+	font-size: 0px;
+	width: 180px;
+	}
+	/*Replace the text with the funny*/
+	.uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG:after {
+	content: "Don't ever post that bullshit again you fucking degenerate";
+	font-size: 12px;
+	}
+
+
+/* Light theme away */
+html.theme-dark .theme-light {
+	--header-primary: #fff;
+	--header-secondary: #b9bbbe;
+	--text-normal: #dcddde;
+	--text-muted: #72767d;
+	--text-link: #00b0f4;
+	--channels-default: #8e9297;
+	--interactive-normal: #b9bbbe;
+	--interactive-hover: #dcddde;
+	--interactive-active: #fff;
+	--interactive-muted: #4f545c;
+	--background-primary: #36393f;
+	--background-secondary: #2f3136;
+	--background-secondary-alt: #292b2f;
+	--background-tertiary: #202225;
+	--background-accent: #4f545c;
+	--background-floating: #18191c;
+	--background-mobile-primary: #36393f;
+	--background-mobile-secondary: #2f3136;
+	--background-modifier-hover: rgba(79,84,92,0.16);
+	--background-modifier-active: rgba(79,84,92,0.24);
+	--background-modifier-selected: rgba(79,84,92,0.32);
+	--background-modifier-accent: hsla(0,0%,100%,0.06);
+	--scrollbar-thin-thumb: #202225;
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-thumb: #202225;
+	--scrollbar-auto-track: #2e3338;
+	--focus-primary: #00b0f4;
+  }
+  html.theme-dark .theme-light .root-1gCeng {
+	background-color: #36393f;
+	-webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+	box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+  }
+  html.theme-dark .theme-light .footer-2gL1pp {
+	background-color: #2f3136;
+	-webkit-box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+	box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
+	color: var(--text-normal);
+  }
+  
 .rolesList-22qj2L ~ div {
     display: none;
 }
@@ -1054,20 +994,6 @@ svg.icon-22AiRD:hover {
 /* Fix the "View Profile" thing when u over your avatar */
 .avatarHint-1qgaV3 foreignObject { mask: none !important; border-radius: var(--avatar-radius); }
 
-
-.embedFull-2tM8-- {
-	background: rgba(3, 3, 3, 0);
-	border-left: 0px;
-	border-bottom: 10px solid;
-	border-radius: 10px;
-	box-shadow: var(--elevationHigh);
-  }
-  .embedFull-2tM8-- .grid-1nZz7S {
-	padding-top: 3px;
-	padding-bottom: 10px;
-  }
-
-  
 .botTagRegular-2HEhHi {
     transition: .5s;
     background: rgba(30,0,27,0.1);
@@ -1144,7 +1070,7 @@ svg.icon-22AiRD:hover {
   margin-right: 10px
 }
 .chat-3bRxxu {
-  background: var(--background-tertiary);
+  background: var(--background-primary);
 }
 .chatContent-a9vAAp {
   background-color: var(--background-primary);
@@ -1153,6 +1079,191 @@ svg.icon-22AiRD:hover {
   margin-left: -25px
 }
 
+ #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ /* Better Topbar */
+ :root {
+	--Roundness: 25px; /* Changes how round edges are | Default: 25px */
+  }
+  
+  .children-19S4PO, .toolbar-1t6TWx {
+	background-color: rgba(0,0,0,0.2);
+	border-radius: var( --Roundness);
+	padding: 5px;
+	height: 30px;
+  }
+  .children-19S4PO::after {
+	display: none;
+  }
+  .children-19S4PO {
+	margin-right: 20px;
+  }
+  .input-2A_zIr, .input-2A_zIr:hover {
+	  background-color: rgba(255,255,255,0);
+	margin-left: 10px;
+	border-radius: var( --Roundness);
+  }
+  .searchBar-3dMhjb {
+	  width: 28px;
+	  transition: width 0.3s ease-in-out;
+	border-radius: var( --Roundness);
+  }
+  .divider-3FBTu8 {
+	  width: 2px;
+	height: 20px;
+  }
+  svg > .updateIconForeground-3tnNZn {
+	fill: var(--interactive-normal);
+  }
+  svg:hover > .updateIconForeground-3tnNZn {
+	fill: var(--interactive-hover);
+  }
+  svg:active > .updateIconForeground-3tnNZn {
+	fill: var(--interactive-active);
+  }
+  svg.icon-3cZ1F_ > path {
+	fill: var(--interactive-normal);
+  }
+  svg.icon-22AiRD {
+	  color: var(--interactive-normal);
+  }
+  svg.icon-22AiRD:hover {
+	  color: var(--interactive-hover);
+  }
+  .topic-TCb_qw {
+	  color: var(--interactive-normal) !important;
+  }
+  .title-29uC1r {
+	  color: var(--interactive-normal);
+  }
+  .title-29uC1r:hover {
+	  color: var(--interactive-hover);
+  }
+  .status-1XNdyw:hover {
+	  filter: brightness(1.5)!important
+  }
+  .channelName-qsg_a_ > div > .input-2A_zIr {
+	  box-shadow: none !important;
+  }
+  
+  .onlineFriends-friendsOnline {
+	animation: none;
+  }
+
+  .backdrop-1wrmKB {
+    background: #00000055 !important;
+    opacity: 1 !important;
+}
+.inner-1ilYF7 {
+    background: none !important;
+}
+.root-SR8cQa {
+    background: inherit !important;
+    backdrop-filter: blur(10px) brightness(3) !important;
+    border-radius: 10px !important;
+}
+.inner-1ilYF7 .body-3ND3kc {
+    background: transparent !important;
+}
+.topSectionSpotify-1lI0-P {
+    background: #1db954a8 !important;
+}
+.connectedAccount-36nQx7 {
+    border: none;
+    background: #00000066 !important;
+    border-radius: 7px !important;
+}
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+    border-top: transparent !important;
+}
+.topSectionNormal-2-vo2m {
+    background: #000000a8 !important;
+}
+.topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
+    border-top: transparent !important;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background: #00000066 !important;
+    border-radius: 7px !important;
+}
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+    background: #1db954a8 !important;
+    color: #fff !important;
+    border-radius: 7px !important;
+}
+.lookInverted-2D7oAl.colorGreen-29iAKY:hover {
+    background: #1db954ff !important;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background: #7289daa8 !important;
+}
+.topSectionPlaying-1J5E4n {
+    background: #7289daa8 !important;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    background: #7289daa8 !important;
+    border-radius: 7px !important;
+    color: #fff !important;
+}
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+    background: #7289daff !important;
+}
+.topSectionStreaming-1Tpf5X {
+    background: #593695a8 !important;
+}
+.buttonInvertedPurple-WtBglX {
+    border-radius: 7px !important;
+    background: #593695a8 !important;
+    color: #fff !important;
+}
+.buttonInvertedPurple-WtBglX:hover {
+    background: #593695ff;
+}
+.topSectionStreaming-1Tpf5X .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    background: #593695a8 !important;
+}
+.topSectionStreaming-1Tpf5X .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    background: #593695ff !important;
+}
+.topSectionPlaying-1J5E4n .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    background: #7289daa8 !important;
+}
+.topSectionPlaying-1J5E4n .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    background: #7289daff !important;
+}
+.tabBarContainer-1s1u-z {
+    border-top: none !important;
+    height: 40px !important;
+}
+.tabBar-2MuP6- {
+    height: 40px !important;
+}
+
+/* VC backround image */
+.minimum-28Z35l > .root-217Brm,
+.video--KPXCT > .root-217Brm {
+  background:
+	url("https://media.discordapp.net/attachments/706617700776018034/814176274284150784/nebo-oblaka-windows-pustinia-barkhan.jpg") /* CHANGE IMAGE FOR VOICE CALLS HERE */
+	center/100% no-repeat;
+}
+.minimum-28Z35l > .root-217Brm::before,
+.video--KPXCT > .root-217Brm::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(51, 50, 50, 0.171);
+}
+.videoControls-24w7Xp > .topControls-KKImPZ > div > .headerWrapper-3NUKsd > .title-3qD0b-,
+.videoControls-24w7Xp > .topControls-KKImPZ > div > .headerWrapper-3NUKsd > .transparent-2ZlE3R  {
+  box-shadow: none !important;
+}
+  
 /* IGNORE */
 
 /* Animations */
