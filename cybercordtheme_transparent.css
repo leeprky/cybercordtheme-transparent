@@ -4,9 +4,6 @@ https://github.com/leeprky/cybercordtheme-yellow */
 
 /* Use https://github.com/DiscordStyles/HorizontalServerList For Top Server List, It will automatically apply it */
 
-/* USRBG compatibility CSS */
-@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
-
 :root{
 	/* Here you can define properties for use with Glasscord. */
 
@@ -24,87 +21,14 @@ https://github.com/leeprky/cybercordtheme-yellow */
 	--glasscord-linux-blur: true;
 
 	/* The corner radius of the blurry background */
-	--glasscord-blur-corner-radius: 18px;
+	--glasscord-blur-corner-radius:25px;
 	
 
 	/* Discord-specific properties */
 	/* Custom (forced) titlebar */
 	/* native (default), windows, osx, linux (framed) */
-	--glasscord-titlebar: osx;
-
-	/* USRBG Compatibility */
-	/* Please refer to https://github.com/Discord-Custom-Covers/usrbg */
-	
-	/* Distance from the avatar container to the edge of the modal */
-	--usrbg-modal-x-offset: -34px; 
-	--usrbg-modal-y-offset: -20px;
-	
-	/* Maximum width / height of modal */
-	--usrbg-modal-width: 600px; 
-	--usrbg-modal-height: 600px;
+	--glasscord-titlebar: osx;  
 }
-
-
-/* EXPANDED */
-.header-QKLPzZ .wrapper-3t9DeA::after {
-	content: '';
-	position: absolute;
-	top: var(--usrbg-modal-x-offset);
-	left: var(--usrbg-modal-y-offset);
-	width: var(--usrbg-modal-width);
-	height: var(--usrbg-modal-height);
-	opacity: .6;
-	background: var(--user-background) center/cover no-repeat;
-	z-index: -1;
-}
-
-/* Glasscord additions to Usrbg expanded */
-.topSectionNormal-2-vo2m {
-	z-index: 0;
-}
-
-.topSectionNormal-2-vo2m::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #20222580;
-	z-index: -1;
-}
-
-.topSectionPlaying-1J5E4n {
-	z-index: 0;
-}
-
-.topSectionPlaying-1J5E4n::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #7289da80;
-	z-index: -1;
-}
-
-.topSectionSpotify-1lI0-P {
-	z-index: 0;
-}
-
-.topSectionSpotify-1lI0-P::after {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #1db95480;
-	z-index: -1;
-}
-
-/* USRBG compatibility end */
 
 body{
     background-color: transparent;
