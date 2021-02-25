@@ -22,6 +22,9 @@ Refresh Discord
 
 If you want your server list at the top use https://github.com/DiscordStyles/HorizontalServerList
 
+On Windows The corners still have borders so if you want to, download this, https://www.nirsoft.net/utils/winexp.html.
+Then select discord in the list and go to style and tick off WS_DLGFRAME & WS_BORDER.
+
 ## license
 
 MIT, see LICENSE.md for more details
