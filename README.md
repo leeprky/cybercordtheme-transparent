@@ -1,7 +1,7 @@
 # cybercord transparent
 a A Discord Powercord Based Glasscord Theme!
 
-THIS THEME IS UNMAINTAINED NOW
+THIS THEME IS UNMAINTAINED NOW BUT FEEL FREE TO STILL INSTALL FOLLOWING THE METHOD BELOW
 
 A Discord theme based on Cyberpunk 2077 /w  Modern Traits & Transparency.
 ## install
