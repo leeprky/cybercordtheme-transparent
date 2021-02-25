@@ -24,4 +24,4 @@ MIT, see LICENSE.md for more details
 
 ## previews
 
-![preview](./previews/cybercordtheme-transparent1.jpg)
+![preview](./previews/cybercordtheme-transparent1.jpg.jpg)
