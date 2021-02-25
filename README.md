@@ -28,6 +28,6 @@ MIT, see LICENSE.md for more details
 
 ## previews
 
-![preview](./previews/preview1jpg)
-![preview](./previews/preview2jpg)
-![preview](./previews/preview3jpg)
+![preview](./previews/preview1.jpg)
+![preview](./previews/preview2.jpg)
+![preview](./previews/preview3.jpg)
