@@ -501,7 +501,7 @@ body{
 /* Profile when clicked in member list */
   /* footer colour */
   .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0{
-    background-color: #ffff3d00 !important;
+    background-color: #000000ab !important;
   }
 
   /* no idea what this does tbh */
@@ -511,7 +511,7 @@ body{
 
   /* role box backround colour */
   .body-3iLsc4 {
-    background-color:  #292926d3 !important;
+    background-color:  #070707b2 !important;
   }
 
   /* footer colour (where "Message @user" and "Right click user for more" are embedded) */
