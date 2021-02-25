@@ -25,6 +25,7 @@ https://github.com/leeprky/cybercordtheme-yellow */
 
 	/* The corner radius of the blurry background */
 	--glasscord-blur-corner-radius: 18px;
+	
 
 	/* Discord-specific properties */
 	/* Custom (forced) titlebar */
@@ -111,10 +112,14 @@ body{
 
 #app-mount{
 	background-color: transparent;
-	border-radius: var(--glasscord-blur-corner-radius);
+	border-radius: 20px 20px 20px 20px; /* top left, top right, bottom right, bottom left */
+	border-color: transparent);
 }
 
-/* dd */ 
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
 
 .theme-dark{
 	--background-primary: #2020200e;
@@ -138,6 +143,11 @@ body{
 	--background-titlebar: #2f313650;
     --scrollbar-auto-thumb: #f3ff47c5;
 }
+
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
 
 .auto-Ge5KZx::-webkit-scrollbar-track{
     background-color: transparent;
@@ -522,11 +532,12 @@ body{
 /* ================================================================== */
 
 /* CYBERCORD CSS */
+/* EDIT COLOURS HERE */ 
 
 /* color current channel cyan, and add arrow in front of it */
 [class*='modeSelected'] [class*='name']
 {
-    color: rgba(103, 255, 255, 0.767) !important;
+    color: rgba(103, 255, 255, 0.767) !important; /* EDIT COLOURS HERE */ 
     padding-left: 5px
 }
 
@@ -538,7 +549,7 @@ body{
 /* color unread channels lighter yellow, and add arrows after them */
 [class*='modeUnread'] [class*='name']
 {
-    color: #ffff7dda !important;
+    color: #ffff7dda !important; /* EDIT COLOURS HERE */ 
     padding-left: 3px
 }
 
@@ -627,76 +638,7 @@ body{
     background-color: var(--text-link);
   }
   .circleIconButton-jET_ig.selected-ugP_am svg path{
-    fill: rgb(255, 255, 255);
-  }
-  
-  /* Better Topbar */
-:root {
-	--Roundness: 30px; /* Changes how round edges are | Default: 25px */
-  }
-  
-  .children-19S4PO, .toolbar-1t6TWx {
-	background-color: rgba(0,0,0,0.2);
-	border-radius: var( --Roundness);
-	padding: 5px;
-	height: 30px;
-  }
-  .children-19S4PO::after {
-	display: none;
-  }
-  .children-19S4PO {
-	margin-right: 20px;
-  }
-  .input-2A_zIr, .input-2A_zIr:hover {
-	  background-color: rgba(255,255,255,0);
-	margin-left: 10px;
-	border-radius: var( --Roundness);
-  }
-  .searchBar-3dMhjb {
-	  width: 28px;
-	  transition: width 0.3s ease-in-out;
-	border-radius: var( --Roundness);
-  }
-  .divider-3FBTu8 {
-	  width: 2px;
-	height: 20px;
-  }
-  svg > .updateIconForeground-3tnNZn {
-	fill: var(--interactive-normal);
-  }
-  svg:hover > .updateIconForeground-3tnNZn {
-	fill: var(--interactive-hover);
-  }
-  svg:active > .updateIconForeground-3tnNZn {
-	fill: var(--interactive-active);
-  }
-  svg.icon-3cZ1F_ > path {
-	fill: var(--interactive-normal);
-  }
-  svg.icon-22AiRD {
-	  color: var(--interactive-normal);
-  }
-  svg.icon-22AiRD:hover {
-	  color: var(--interactive-hover);
-  }
-  .topic-TCb_qw {
-	  color: var(--interactive-normal) !important;
-  }
-  .title-29uC1r {
-	  color: var(--interactive-normal);
-  }
-  .title-29uC1r:hover {
-	  color: var(--interactive-hover);
-  }
-  .status-1XNdyw:hover {
-	  filter: brightness(1.5)!important
-  }
-  .channelName-qsg_a_ > div > .input-2A_zIr {
-	  box-shadow: none !important;
-  }
-  
-  .onlineFriends-friendsOnline {
-	animation: none;
+    fill: rgb(255, 255, 255); /* EDIT COLOURS HERE */ 
   }
   
   /* Hide GIF and present boxes when typing a message */
@@ -708,12 +650,12 @@ body{
 
 :root {
 	/* better channel indicators variables */
-	--unread-badge: rgb(249, 253, 8);
-	--unread-bg: rgba(27, 27, 27, 0.096);
+	--unread-badge: rgb(249, 253, 8); /* EDIT COLOURS HERE */ 
+	--unread-bg: rgba(27, 27, 27, 0.096); /* EDIT COLOURS HERE */ 
 	--selected-badge: var(--dracula-accent);
 	--selected-bg: var(--dracula-accent-alpha);
 	--selected-bg-hover: var(--dracula-accent-alpha-alt);
-	--hovered-bg: rgba(33, 44, 44, 0.267);
+	--hovered-bg: rgba(33, 44, 44, 0.267); /* EDIT COLOURS HERE */ 
 	--bg-rounding: 5px;
 	--indicators-border-info: 2px solid;
   }
@@ -813,35 +755,35 @@ body{
   :root {
   
 	/* colour of links (including in embeds) */
-	--text-link: #d6d600e1;
+	--text-link: #d6d600e1; /* EDIT COLOURS HERE */ 
   
 	/* colour for the following things:
 	   - channel icon, text with "Today at ..." by message
 	   - "Message #channel/user" */
-	--text-muted: rgb(255, 255, 255) !important;
+	--text-muted: rgb(255, 255, 255) !important; /* EDIT COLOURS HERE */ 
   
 	/* colour of text in messages and discord logo in top
 	left hand corner */
-	--text-normal: #ffffffee !important;
+	--text-normal: #ffffffee !important; /* EDIT COLOURS HERE */ 
   
 	/* colour of interactive buttons when looked at, e.g.:
 	   - pinned messages
 	   - mute mic/deafen/user settings
 	   - mentions inbox
 	   - text names of settings */
-	   --interactive-normal: #ffffff !important;
+	   --interactive-normal: #ffffff !important; /* EDIT COLOURS HERE */ 
   
 	   /* colour of text/button in interactive buttons (and text channel
 	   names) when hovered over */
-	   --interactive-hover: #00D6D6 !important;
+	   --interactive-hover: #00D6D6 !important; /* EDIT COLOURS HERE */ 
 	 
 	   /* colour of things that are currently selected (e.g. colour of
 	   channel name that you are participating in) */
-	   --interactive-active: #ebeb20 !important;
+	   --interactive-active: #ebeb20 !important; /* EDIT COLOURS HERE */ 
 	 
 	   /* colour of muted channel names */
-	   --interactive-muted: #f5eeee !important;
-   
+	   --interactive-muted: #f5eeee !important; /* EDIT COLOURS HERE */ 
+
 	 }
   
 /* CSS */
@@ -1094,7 +1036,7 @@ html.theme-dark .theme-light {
 
  /* Better Topbar */
  :root {
-	--Roundness: 25px; /* Changes how round edges are | Default: 25px */
+	--Roundness: 15px; /* Changes how round edges are | Default: 25px */
   }
   
   .children-19S4PO, .toolbar-1t6TWx {
