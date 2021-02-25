@@ -38,7 +38,7 @@ body{
 
 #app-mount{
 	background-color: transparent;
-	border-radius: 10px 10px 10px 10px; /* top left, top right, bottom right, bottom left */
+	border-radius: 15px 15px 15px 15px; /* top left, top right, bottom right, bottom left */
 	border-color: transparent);
 }
 
@@ -53,7 +53,7 @@ body{
 	--background-secondary: #2020200e;
 	--background-secondary-chat: #2f3136a0;
 	--background-secondary-alt: #292b2f00;
-	--background-tertiary: #202225be;
+	--background-tertiary: #45463525; /* CHANGE ENTIRE BACKGROUND COLOUR */
 	--background-logo: #03030302;
 	--deprecated-card-bg: #36393f4c;
 	--deprecated-store-bg: #36393f00;
@@ -67,7 +67,7 @@ body{
 	--background-emoji: #2f3136ff;
 	--text-lights-out: #f0f0f0;
 	--background-titlebar: #2f313650;
-    --scrollbar-auto-thumb: #f3ff47c5;
+    --scrollbar-auto-thumb: #f3ff4710;
 }
 
 /* EDIT COLOURS HERE */ 
@@ -508,7 +508,7 @@ body{
 
   /* no idea what this does tbh */
   .scroller-2FKFPG.systemPad-3UxEGl.bodyInner-245q0L {
-    background-color: #fde40052 !important;  /* edited from var(--background-secondary) */
+    background-color: #fde40052 !important;
   }
 
   /* role box backround colour */
@@ -536,7 +536,7 @@ body{
     background-color:  #4242417a !important;
   }
 
-  /* Better Playing Modals, again from Luckfire#4800 :') */
+  /* Better Playing Modals */ /* LuckFire */
   .headerPlaying-j0WQBV, 
   .topSectionPlaying-1J5E4n {
     background-color:  #ffff38f8 !important;
@@ -1563,7 +1563,6 @@ span[class*="botTagRegular"] {
 
 
 /* Power Animations By Liam The Protogen #2501*/
-
 .focusLock-Ns3yie {
 	animation: Modal 1000ms linear both;
   }
