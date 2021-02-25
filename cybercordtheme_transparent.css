@@ -33,7 +33,7 @@
 	/* Discord-specific properties */
 	/* Custom (forced) titlebar */
 	/* native (default), windows, osx, linux (framed) */
-	--glasscord-titlebar: windows;  
+	--glasscord-titlebar: osx;  
 }
 
 body{
@@ -42,7 +42,7 @@ body{
 
 #app-mount{
 	background-color: transparent;
-	border-radius: 15px 15px 15px 15px; /* top left, top right, bottom right, bottom left */
+	border-radius: 20px 20px 20px 20px; /* top left, top right, bottom right, bottom left */
 	border-color: transparent;
 }
 
@@ -453,7 +453,7 @@ body{
     font-family: "Discord";
     content: "CYBERCORD!";
     font-size: 15px;
-    background: rgb(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
     background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1188,7 +1188,7 @@ html.theme-dark .theme-light {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: rgba(51, 50, 50, 0.171);
+  background: #62a1b467;
 }
 .videoControls-24w7Xp > .topControls-KKImPZ > div > .headerWrapper-3NUKsd > .title-3qD0b-,
 .videoControls-24w7Xp > .topControls-KKImPZ > div > .headerWrapper-3NUKsd > .transparent-2ZlE3R  {
