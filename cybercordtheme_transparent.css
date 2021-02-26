@@ -57,7 +57,7 @@ body{
 	--background-secondary: rgba(29, 25, 25, 0.096);
 	--background-secondary-chat: #2f3136a0;
 	--background-secondary-alt: #292b2f00;
-	--background-tertiary: #63eee725; /* CHANGE ENTIRE BACKGROUND COLOUR */
+	--background-tertiary: #e66d8b02; /* CHANGE ENTIRE BACKGROUND COLOUR */
 	--background-logo: #ff000002;
 	--deprecated-card-bg: #36393f4c;
 	--deprecated-store-bg: #36393f00;
@@ -783,6 +783,7 @@ body{
 	 };
 
 /* Other Fixes */
+
 
 .iconWrapper-2OrFZ1[aria-label=Help] {
 	display: none;
@@ -1606,7 +1607,25 @@ span[class*="botTagRegular"] {
     background-color: rgba(36, 35, 35, 0.336);
 }
 
-/* Power Animations By Liam The Protogen #2501*/
+/* Liam The Protogen#2501 Code */ /* https://github.com/Controlfreak707/PowerAnimations */
+.numberBadge-2s8kKX {
+	animation: animatedPing 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes animatedPing {
+	0% {
+	  transform: rotate(-15deg);
+	}
+  
+	50% {
+	  transform: rotate(15deg) scale(1.2);
+	}
+  
+	100% {
+	  transform: rotate(-15deg);
+	}
+  }
+
 .focusLock-Ns3yie {
 	animation: Modal 1000ms linear both;
   }
