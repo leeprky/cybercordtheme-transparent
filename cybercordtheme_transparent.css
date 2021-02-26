@@ -57,7 +57,7 @@ body{
 	--background-secondary: rgba(29, 25, 25, 0.096);
 	--background-secondary-chat: #2f3136a0;
 	--background-secondary-alt: #292b2f00;
-	--background-tertiary: #23748d36; /* CHANGE ENTIRE BACKGROUND COLOUR */
+	--background-tertiary: #1a6e8a3a; /* CHANGE ENTIRE BACKGROUND COLOUR */
 	--background-logo: #ff000002;
 	--deprecated-card-bg: #36393f4c;
 	--deprecated-store-bg: #36393f00;
@@ -896,41 +896,6 @@ html.theme-dark .theme-light {
 .rolesList-22qj2L ~ div {
     display: none;
 }
-
-/* -- Deleting everything mouhahaha -- */
-[href="/store"],
-.buttons-3JBrkn > button:not(.message-translate-settings-button),
-[aria-controls="Discord Nitro-tab"],
-[aria-controls="Billing-tab"],
-[aria-controls="Nitro Server Boost-tab"],
-#guild-header-popout > div > .separator-2I32lJ:nth-child(2),
-.shinyButton-3uFlM-,
-.emojiSection-3Fb9ix > .flex-1xMQg5 > .size14-e6ZScH,
-.emojiSection-3Fb9ix > .flex-1xMQg5 > .flex-1xMQg5 > .size14-e6ZScH,
-.emptyStateSubtext-2hdA9c, 
-.content-2c3hgM, 
-.wrapper-1hrFc0, 
-.wrapper-3nSjSv, 
-.divider-Uf0Wob,
-.perksModalContentWrapper-2HU6uL > .content-2qfHzC:nth-child(3),
-.guildsBlurb-2AgVCC,
-.marketingHeader-d16BX1,
-.content-3BhRLj > div:not(.marketingLogo-1D8DV6), .content-3BhRLj > h3,
-.subscribeTooltipWrapper-1JoUuw,
-.headerBlurb-1GxBrq,
-.giftAction-yhDLaW,
-.tierMarkerLabelContainer-1qM0Ak
-{ display: none;}
-/* -- Repairing the damages -- */
-/* Emote information popup */
-.emojiSection-3Fb9ix > .flex-1xMQg5, .popoutContainer-1MXdqN > .flex-1xMQg5 { 
-  flex-direction: column;
-  align-items: center;
-}
-.emojiSection-3Fb9ix > .flex-1xMQg5 > .flex-1xMQg5,
-.popoutContainer-1MXdqN > .flex-1xMQg5 > .flex-1xMQg5 { margin-left: 0px; }
-.primaryEmoji-3LinDq { margin: 0px 0px 12px 0; }
-.popoutContainer-1MXdqN { width: auto; }
 
 /* Server Boost */
 .ctaBar-2UsjF2 { margin: auto;}
