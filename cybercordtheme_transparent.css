@@ -54,24 +54,35 @@ body{
 .theme-dark{
 	--background-primary: #2020200e;
 	--background-primary-alt: #36393f15;
-	--background-secondary: #2020200e;
+	--background-secondary: rgba(29, 25, 25, 0.096);
 	--background-secondary-chat: #2f3136a0;
 	--background-secondary-alt: #292b2f00;
-	--background-tertiary: #0b384648; /* CHANGE ENTIRE BACKGROUND COLOUR */
-	--background-logo: #03030302;
+	--background-tertiary: #1343525b; /* CHANGE ENTIRE BACKGROUND COLOUR */
+	--background-logo: #ff000002;
 	--deprecated-card-bg: #36393f4c;
 	--deprecated-store-bg: #36393f00;
 	--background-attachments: #2f313640;
-	--background-search-bar: #202225a0;
+	--background-search-bar: #3b3b3846;
 	--background-switcher: #2f3136ff;
 	--background-chatbox: transparent;
 	--background-lights-out: #000;
 	--background-pinned: #2f3136ff;
 	--background-profile-expand: #2f3136ff;
-	--background-emoji: #2f3136ff;
+	--background-emoji: rgba(43, 45, 53, 0.014);
 	--text-lights-out: #f0f0f0;
 	--background-titlebar: #2f313650;
     --scrollbar-auto-thumb: #f3ff4710;
+}
+
+
+.username-1A8OIy, .headerName-fajvi9, .usernameFont-23TX-h, .headerNameWrapper-3res2c{
+    font-weight: 1000 !important;
+    transition: filter .5s ease-in-out .5s;
+    filter: brightness(0) invert(1);
+    text-shadow: 0px 0px 5px;
+}
+.username-1A8OIy:hover, .headerName-fajvi9:hover, .usernameFont-23TX-h:hover, .headerNameWrapper-3res2c:hover {
+    filter: brightness(1) invert(0) !important;
 }
 
 /* EDIT COLOURS HERE */ 
@@ -738,15 +749,18 @@ body{
   
 	/* colour of links (including in embeds) */
 	--text-link: #d6d600e1; /* EDIT COLOURS HERE */ 
+
+	  /* colour of channel name's text */
+	  --channels-default: #ebe5e5d0 !important;
   
 	/* colour for the following things:
 	   - channel icon, text with "Today at ..." by message
 	   - "Message #channel/user" */
-	--text-muted: rgb(255, 255, 255) !important; /* EDIT COLOURS HERE */ 
+	--text-muted: rgba(250, 241, 241, 0.938) !important; /* EDIT COLOURS HERE */ 
   
 	/* colour of text in messages and discord logo in top
 	left hand corner */
-	--text-normal: #ffffffee !important; /* EDIT COLOURS HERE */ 
+	--text-normal: #ffffffbe !important; /* EDIT COLOURS HERE */ 
   
 	/* colour of interactive buttons when looked at, e.g.:
 	   - pinned messages
@@ -764,10 +778,38 @@ body{
 	   --interactive-active: #ebeb20 !important; /* EDIT COLOURS HERE */ 
 	 
 	   /* colour of muted channel names */
-	   --interactive-muted: #f5eeee !important; /* EDIT COLOURS HERE */ 
+	   --interactive-muted: #faf6f625 !important; /* EDIT COLOURS HERE */ 
 
-	 }
-  
+	 };
+
+/* Other Fixes */
+
+.iconWrapper-2OrFZ1[aria-label=Help] {
+	display: none;
+  };
+
+/* Colour Fixes */
+
+.searchBarComponent-32dTOx .searchBar-6Kv8R{
+	background-color: transparent;
+};
+
+.quickswitcher-3JagVE {
+	background-color: #0000007a;
+};
+
+.input-2VB9rf {
+	background-color:  #f3efef38;
+};
+
+.autocomplete-1vrmpx {
+	background-color: transparent;
+};
+
+.popout_142 {
+	display: none;
+};
+
 /* CSS */
 
 /* No note on user modal */
@@ -888,20 +930,9 @@ html.theme-dark .theme-light {
 .popoutContainer-1MXdqN > .flex-1xMQg5 > .flex-1xMQg5 { margin-left: 0px; }
 .primaryEmoji-3LinDq { margin: 0px 0px 12px 0; }
 .popoutContainer-1MXdqN { width: auto; }
+
 /* Server Boost */
 .ctaBar-2UsjF2 { margin: auto;}
-
-.base-1pYU8j {
-    transition: all 0.5s;
-	background-color: transparent;
-	background: transparent;
-}
-.base-1pYU8j:hover {
-    transition: all 0s;
-    transform: scale(1.02);
-	background-color: transparent;
-	background: transparent;
-}
 
 /* Avatar++ */
 .avatar-1BDn8e {
@@ -1562,6 +1593,18 @@ span[class*="botTagRegular"] {
     color: rgba(var(--alt-color)) !important;
 }
 
+.barButtonMain-3K-jeJ { display: none; }
+.jumpToPresentBar-G1R9s6 {
+    display: block;
+    background-color: transparent;
+}
+.barButtonAlt-mYL1lj {
+    float: right;
+    bottom: 1rem;
+    z-index: 999; /* Forgive me CSS gods */
+    border-radius: 0.7rem;
+    background-color: rgba(36, 35, 35, 0.336);
+}
 
 /* Power Animations By Liam The Protogen #2501*/
 .focusLock-Ns3yie {
