@@ -5,11 +5,11 @@
 [app-1.0.23] May change in the future, if so use the highest numbered folder.
 ----------
 
-Step 1:
+**Step 1:**
 
 > Move glasscord.asar to C:\Users\[PCNAME]\AppData\Local\DiscordCanary\app-1.0.23\resources\app.
 
-Step 2:
+**Step 2:**
 
 > Open The index.js in C:\Users\[PCNAME]\AppData\Local\DiscordCanary\app-1.0.23\resources\app.
 
@@ -17,7 +17,7 @@ Step 2:
 
 > CTRL+S Or Save The File
 
-Step 3:
+**Step 3:**
 
 > Restart DiscordCanary Trough Task Manager/Tray.
 
