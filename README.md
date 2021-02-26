@@ -7,7 +7,7 @@ A Discord theme based on Cyberpunk 2077 /w  Modern Traits & Transparency.
 
 ## How To Install Glasscord & Cybercord 2077 - Transparent
 
-# Glasscord
+**Glasscord**
 
 Firstly You will Need Glasscord API,
 
@@ -16,7 +16,7 @@ Firstly You will Need Glasscord API,
 > CLick here: https://github.com/AryToNeX/Glasscord/wiki/Installation & Then once its installed continue to the next step 
 (Video Version: https://www.youtube.com/watch?v=ucZC2x3yc24)
 
-# Cybercord 2077 - Transparent
+**Cybercord 2077 - Transparent**
 
 > Head to C:\Users\[USER]\powercord\src\Powercord
 
