@@ -1,10 +1,7 @@
-## Install
-
 [PCNAME] Being your PC NAME.
-
 [app-1.0.23] May change in the future, if so use the highest numbered folder.
-----------
 
+## How To Install
 **Step 1:**
 
 > Move glasscord.asar to C:\Users\[PCNAME]\AppData\Local\DiscordCanary\app-1.0.23\resources\app.
