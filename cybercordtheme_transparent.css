@@ -57,7 +57,7 @@ body{
 	--background-secondary: rgba(29, 25, 25, 0.096);
 	--background-secondary-chat: #2f3136a0;
 	--background-secondary-alt: #292b2f00;
-	--background-tertiary: #1343525b; /* CHANGE ENTIRE BACKGROUND COLOUR */
+	--background-tertiary: #63eee725; /* CHANGE ENTIRE BACKGROUND COLOUR */
 	--background-logo: #ff000002;
 	--deprecated-card-bg: #36393f4c;
 	--deprecated-store-bg: #36393f00;
@@ -72,7 +72,7 @@ body{
 	--text-lights-out: #f0f0f0;
 	--background-titlebar: #2f313650;
     --scrollbar-auto-thumb: #f3ff4710;
-}
+};
 
 
 .username-1A8OIy, .headerName-fajvi9, .usernameFont-23TX-h, .headerNameWrapper-3res2c{
