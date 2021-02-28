@@ -3621,3 +3621,17 @@ span[class*="botTagRegular"] {
 	  transform: matrix3d(0, -1.25, 0, 0, 1.25, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 	}
   }
+
+  /* CSS 2 */
+  
+  .item-3HknzM:nth-child(5){
+    background-color: rgba(10, 82, 85, 0.712) !important;
+}
+
+.item-3HknzM:hover{
+    background-color:rgba(51, 199, 204, 0.445)0 !important;
+}
+
+.title-3qD0b-{
+  -webkit-app-region: drag;
+}
