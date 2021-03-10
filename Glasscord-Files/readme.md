@@ -1,17 +1,17 @@
 [PCNAME] Being your PC NAME.
 
-[app-1.0.24] May change in the future, if so use the highest numbered folder.
+[app-1.0.27] May change in the future, if so use the highest numbered folder.
 
 ## How To Install
 **Step 1:**
 
-> Move glasscord.asar to C:\Users\[PCNAME]\AppData\Local\DiscordCanary\app-1.0.23\resources\app.
+> Move glasscord.asar to C:\Users\[PCNAME]\AppData\Local\DiscordCanary\app-1.0.27\resources\app.
 
 **Step 2:**
 
-> Open The index.js in C:\Users\[PCNAME]\AppData\Local\DiscordCanary\app-1.0.24\resources\app.
+> Open The index.js in C:\Users\[PCNAME]\AppData\Local\DiscordCanary\app-1.0.27\resources\app.
 
-> "require('C:/Users/[PCNAME]/AppData/Local/DiscordCanary/app-1.0.24/resources/app/glasscord.asar')" - Change [PCNAME] To your name in this line.
+> "require('C:/Users/[PCNAME]/AppData/Local/DiscordCanary/app-1.0.27/resources/app/glasscord.asar')" - Change [PCNAME] To your name in this line.
 
 > CTRL+S Or Save The File
 
