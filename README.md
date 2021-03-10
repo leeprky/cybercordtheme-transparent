@@ -38,6 +38,7 @@ Thanks For Downloading ;)
 > Then Change the "#12121388" To anything you like. ( Use something like http://colrd.com/create/color/ )
 
 FEEL FREE TO CHANGE ANYTHING :)
+Smile
 
 ## License
 
