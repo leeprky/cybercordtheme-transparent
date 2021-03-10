@@ -2,6 +2,7 @@
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
 @import url("https://poilerwags.github.io/Customa-Discord/Chat/radialstatus.m.css");
 
+
 /* This Theme Uses */
 /* https://github.com/Controlfreak707/PowerAnimations */
 /* https://github.com/leeprky/cybercordtheme-yellow */
@@ -51,16 +52,14 @@ body{
 /* EDIT COLOURS HERE */ 
 /* EDIT COLOURS HERE */ 
 
+
 .theme-dark{
-	--background-primary: #2020200e;
-	--background-primary-alt: #36393f15;
-	--background-secondary: rgba(29, 25, 25, 0.096);
-	--background-secondary-chat: #2f3136a0;
-	--background-secondary-alt: #292b2f00;
-	--background-tertiary: #1a6e8a3a; /* CHANGE ENTIRE BACKGROUND COLOUR */
-	--background-logo: #ff000002;
-	--deprecated-card-bg: #36393f4c;
-	--deprecated-store-bg: #36393f00;
+	--background-primary: #2b2b2b00!important;
+	--background-secondary: #2e2d2d00!important;
+	--background-secondary-alt: #30303000!important;
+	--background-tertiary: #0000007a!important;
+	--background-accent: #f2f20498!important;
+	--background-floating: #161618c9!important;
 	--background-attachments: #2f313640;
 	--background-search-bar: #3b3b3846;
 	--background-switcher: #2f3136ff;
@@ -69,11 +68,34 @@ body{
 	--background-pinned: #2f3136ff;
 	--background-profile-expand: #2f3136ff;
 	--background-emoji: rgba(43, 45, 53, 0.014);
+	--background-modifier-hover: rgba(12, 12, 12, 0)!important;
+	--background-modifier-active: rgba(12, 12, 12, 0.267)!important;
+	--background-modifier-selected: rgba(12, 12, 12, 0.267)!important;
+	--background-modifier-accent: hsla(61, 88%, 52%, 0.123)!important;
+	--channeltextarea-background: var(--background-accent)!important;
+	--deprecated-card-bg: rgba(0, 0, 0, 0.2)!important;
+	--deprecated-card-editable-bg: rgba(0, 0, 0, 0.1)!important;
+	--deprecated-text-input-bg: var(--background-tertiary)!important;
+	--deprecated-text-input-border: var(--background-floating)!important;
+	--deprecated-text-input-border-disabled: var(--background-tertiary)!important;
+	--activity-card-background: var(--background-primary)!important;
+	--channels-default: #9f9f9f77!important;
+	--text-muted: #b6b6b673!important;
+	--text-normal: #fbfbfb!important;
 	--text-lights-out: #f0f0f0;
-	--background-titlebar: #2f313650;
-    --scrollbar-auto-thumb: #f3ff4710;
-};
-
+	--interactive-normal: #c8c8c8!important;
+	--interactive-hover: #dcddde!important;
+	--interactive-active: #fff!important;
+	--interactive-muted: #74747475!important;
+	--header-primary: white!important;
+	--header-secondary: #c9c9c9!important;
+	--toast-background: var(--background-primary)!important;
+	--toast-header: var(--background-tertiary)!important;
+	--toast-contents: var(--background-secondary)!important;
+	--toast-box-shadow: rgba(0, 0, 0, 0.2)!important;
+	--toast-border: var(--background-tertiary)!important;
+	--scrollbar-auto-thumb: #1d1d1a4b;
+	};
 
 .username-1A8OIy, .headerName-fajvi9, .usernameFont-23TX-h, .headerNameWrapper-3res2c{
     font-weight: 1000 !important;
@@ -94,14 +116,13 @@ body{
     background-color: transparent;
 }
 
-
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
 	background-color: transparent;
 	border: 4px solid transparent;
 }
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-	background-color: #20222550;
+	background-color: #20222586;
 }
 
 .theme-dark .container-1D34oG {
@@ -119,39 +140,7 @@ body{
 
 .theme-dark .pageWrapper-1PgVDX {
 	background-color: transparent;
-}
-
-.theme-light {
-
-}
-
-.theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-	background-color: transparent;
-	border: 4px solid transparent;
-}
-
-.theme-light .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-	border-color: transparent;
-	background-color: #e3e5e850;
-}
-
-.theme-light .container-1D34oG {   
-	background-color: transparent;
-}
-
-.theme-light .card-FDVird:before {
-	background-color: #f6f6f790;
-}
-
-.theme-light .codeRedemptionRedirect-1wVR4b {
-	background-color: #f6f6f750;
-	border-color: #dcddde50;
-}
-
-.theme-light .pageWrapper-1PgVDX {
-	background-color: transparent;
-}
-
+};
 .withFrame-haYltI::after {
 	content: "";
 	width: 100%;
@@ -475,7 +464,7 @@ body{
 /* color current channel cyan, and add arrow in front of it */
 [class*='modeSelected'] [class*='name']
 {
-    color: rgba(103, 255, 255, 0.767) !important; /* EDIT COLOURS HERE */ 
+    color: rgba(103, 255, 255, 0.925) !important; /* EDIT COLOURS HERE */ 
     padding-left: 5px
 }
 
@@ -487,7 +476,7 @@ body{
 /* color unread channels lighter yellow, and add arrows after them */
 [class*='modeUnread'] [class*='name']
 {
-    color: #ffff7dda !important; /* EDIT COLOURS HERE */ 
+    color: #f2f204f1 !important; /* EDIT COLOURS HERE */ 
     padding-left: 3px
 }
 
@@ -643,12 +632,12 @@ body{
 
 :root {
 	/* better channel indicators variables */
-	--unread-badge: rgb(249, 253, 8); /* EDIT COLOURS HERE */ 
+	--unread-badge: rgb(242, 242, 4); /* EDIT COLOURS HERE */ 
 	--unread-bg: rgba(27, 27, 27, 0.096); /* EDIT COLOURS HERE */ 
 	--selected-badge: var(--dracula-accent);
 	--selected-bg: var(--dracula-accent-alpha);
 	--selected-bg-hover: var(--dracula-accent-alpha-alt);
-	--hovered-bg: rgba(33, 44, 44, 0.267); /* EDIT COLOURS HERE */ 
+	--hovered-bg: rgba(28, 31, 31, 0.089); /* EDIT COLOURS HERE */ 
 	--bg-rounding: 5px;
 	--indicators-border-info: 2px solid;
   }
@@ -748,7 +737,7 @@ body{
   :root {
   
 	/* colour of links (including in embeds) */
-	--text-link: #d6d600e1; /* EDIT COLOURS HERE */ 
+	--text-link: #F2F204; /* EDIT COLOURS HERE */ 
 
 	  /* colour of channel name's text */
 	  --channels-default: #ebe5e5d0 !important;
@@ -775,7 +764,7 @@ body{
 	 
 	   /* colour of things that are currently selected (e.g. colour of
 	   channel name that you are participating in) */
-	   --interactive-active: #ebeb20 !important; /* EDIT COLOURS HERE */ 
+	   --interactive-active: #F2F204 !important; /* EDIT COLOURS HERE */ 
 	 
 	   /* colour of muted channel names */
 	   --interactive-muted: #faf6f625 !important; /* EDIT COLOURS HERE */ 
@@ -850,37 +839,27 @@ body{
 	font-size: 12px;
 	}
 
+	.avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
+		content: var(--devtext);
+		color: var(--devtestcolor);
+		background: var(--devtest-dg);
+		font-size: .8em;
+		font-weight: 500;
+		height: 2.28em;
+		padding: .072rem .275rem;
+		border-radius: 6px;
+		text-transform: uppercase;
+		vertical-align: baseline;
+		margin-right: .50rem;
+		margin-left: -.25rem;
+	}
+	
+	.avatar-1BDn8e[src*="224524143482241035"] + h2 > span.timestamp-3ZCmNB::before {
+		--devtext: 'Cybercord Dev';
+		--devtext-bg: var(--background-modifier-accent);
+		--devtestcolor: rgba(188, 187, 9);
+	};
 
-/* Light theme away */
-html.theme-dark .theme-light {
-	--header-primary: #fff;
-	--header-secondary: #b9bbbe;
-	--text-normal: #dcddde;
-	--text-muted: #72767d;
-	--text-link: #00b0f4;
-	--channels-default: #8e9297;
-	--interactive-normal: #b9bbbe;
-	--interactive-hover: #dcddde;
-	--interactive-active: #fff;
-	--interactive-muted: #4f545c;
-	--background-primary: #36393f;
-	--background-secondary: #2f3136;
-	--background-secondary-alt: #292b2f;
-	--background-tertiary: #202225;
-	--background-accent: #4f545c;
-	--background-floating: #18191c;
-	--background-mobile-primary: #36393f;
-	--background-mobile-secondary: #2f3136;
-	--background-modifier-hover: rgba(79,84,92,0.16);
-	--background-modifier-active: rgba(79,84,92,0.24);
-	--background-modifier-selected: rgba(79,84,92,0.32);
-	--background-modifier-accent: hsla(0,0%,100%,0.06);
-	--scrollbar-thin-thumb: #202225;
-	--scrollbar-thin-track: transparent;
-	--scrollbar-auto-thumb: #202225;
-	--scrollbar-auto-track: #2e3338;
-	--focus-primary: #00b0f4;
-  }
   html.theme-dark .theme-light .root-1gCeng {
 	background-color: #36393f;
 	-webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
@@ -1195,7 +1174,7 @@ html.theme-dark .theme-light {
 /* BLURPLE BEGONE BY PhenoM4n4n #7248 */
 
 :root {
-    --alt-color: 226, 226, 122; /* Must be an rgb color for opacity to work */
+    --alt-color: 210,210,5 ; /* Must be an rgb color for opacity to work */
     --radio-group-dot-foreground: rgba(var(--alt-color));
 }
 
