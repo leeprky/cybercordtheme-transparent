@@ -64,7 +64,7 @@ body{
 	--background-attachments: #2f313640;
 	--background-search-bar: #3b3b3846;
 	--background-switcher: #2f3136ff;
-	--background-chatbox: transparent;
+	--background-chatbox: rgba(0, 0, 0, 0.089);
 	--background-lights-out: #000;
 	--background-pinned: rgb(28, 30, 32);
 	--background-profile-expand: #2f3136ff;
