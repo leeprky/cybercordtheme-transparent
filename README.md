@@ -9,7 +9,7 @@ A Discord theme based on Cyberpunk 2077 /w  Modern Traits & Transparency.
 
 **Glasscord**
 
-*You can either use the folder given in the the glasscord-files or the following below*
+*You can either use the folder given in the the glasscord-files (https://github.com/leeprky/cybercordtheme-transparent/tree/main/Glasscord-Files) or the following below*
 > CLick here: https://github.com/AryToNeX/Glasscord/wiki/Installation & Then once its installed continue to the next step 
 (Video Version: https://www.youtube.com/watch?v=ucZC2x3yc24)
 
