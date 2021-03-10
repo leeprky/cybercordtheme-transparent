@@ -30,6 +30,15 @@ If you want your server list at the top use https://github.com/DiscordStyles/Hor
 On Windows The corners still have borders so if you want to, download this, https://www.nirsoft.net/utils/winexp.html.
 Then select discord in the list and go to style and tick off WS_DLGFRAME, WS_BORDER & WS_THICKFRAME.
 
+Thanks For Downloading ;)
+
+## HOW TO EDIT BACKGRROUND
+
+> Go To Line 61 ( 	--background-tertiary: #12121388!important; /* this line */ )
+> Then Change the "#12121388" To anything you like. ( Use something like http://colrd.com/create/color/ )
+
+FEEL FREE TO CHANGE ANYTHING :)
+
 ## License
 
 MIT, see LICENSE.md for more details
