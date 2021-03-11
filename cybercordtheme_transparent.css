@@ -3756,4 +3756,32 @@ span[class*="botTagRegular"] {
 	border-top: none;
   }
 
+.compact-T3H92H .messageContent-2qWWxC {
+    font-size: 0;
+}
+.compact-T3H92H .messageContent-2qWWxC::after {
+    content: "Please switch to cozy mode. You can do this via Settings ➜ Appearance ➜ Message Display and click 'Cozy'";
+    font-size: 16px;
+}
+.compact-T3H92H .username-1A8OIy {
+  font-size: 0;
+}
+.compact-T3H92H .username-1A8OIy::after {
+  content: "Clyde";
+  color: #fff;
+  font-size: 16px;
+}
+.compact-T3H92H .username-1A8OIy::before {
+  content: 'BOT';
+  color: #fff;
+  background: #7289da;
+  font-size: 10px;
+  font-weight: 500;
+  height: 1.28em;
+  padding: 1px 4px;
+  border-radius: 3px;
+  line-height: 1.3;
+  margin-left: 4px;
+  margin-right: 3px;
+}
   
