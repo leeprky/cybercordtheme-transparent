@@ -60,12 +60,12 @@ body{
 	--background-secondary-alt: #30303000!important;
 	--background-tertiary: #12121388!important;
 	--background-accent: #f2f20498!important;
-	--background-floating: #161618c9!important;
+	--background-floating: #16161870!important;
 	--background-attachments: #2f313640;
 	--background-search-bar: #3b3b3846;
-	--background-switcher: #2f3136ff;
+	--background-switcher: rgba(47, 49, 54, 0.418);
 	--background-chatbox: rgba(0, 0, 0, 0.089);
-	--background-lights-out: #000;
+	--background-lights-out: rgba(0, 0, 0, 0.253);
 	--background-pinned: rgb(28, 30, 32);
 	--background-profile-expand: #2f3136ff;
 	--background-emoji: rgba(43, 45, 53, 0.014);
@@ -74,7 +74,7 @@ body{
 	--background-modifier-selected: rgba(12, 12, 12, 0.267)!important;
 	--background-modifier-accent: hsla(61, 88%, 52%, 0.123)!important;
 	--channeltextarea-background: var(--background-accent)!important;
-	--deprecated-card-bg: rgba(0, 0, 0, 0.2)!important;
+	--deprecated-card-bg: rgba(0, 0, 0, 0.096)!important;
 	--deprecated-card-editable-bg: rgba(0, 0, 0, 0.1)!important;
 	--deprecated-text-input-bg: var(--background-tertiary)!important;
 	--deprecated-text-input-border: var(--background-floating)!important;
@@ -95,7 +95,7 @@ body{
 	--toast-contents: var(--background-secondary)!important;
 	--toast-box-shadow: rgba(0, 0, 0, 0.2)!important;
 	--toast-border: var(--background-tertiary)!important;
-	--scrollbar-auto-thumb: #1d1d1a4b;
+	--scrollbar-auto-thumb: #1d1d1a28;
 	};
 
 .username-1A8OIy, .headerName-fajvi9, .usernameFont-23TX-h, .headerNameWrapper-3res2c{
@@ -1150,26 +1150,6 @@ body{
 }
 .tabBar-2MuP6- {
     height: 40px !important;
-}
-
-/* VC backround image */
-.minimum-28Z35l > .root-217Brm,
-.video--KPXCT > .root-217Brm {
-  background:
-	url("https://media.discordapp.net/attachments/706617700776018034/814176274284150784/nebo-oblaka-windows-pustinia-barkhan.jpg") /* CHANGE IMAGE FOR VOICE CALLS HERE */
-	center/100% no-repeat;
-}
-.minimum-28Z35l > .root-217Brm::before,
-.video--KPXCT > .root-217Brm::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: #62a1b467;
-}
-.videoControls-24w7Xp > .topControls-KKImPZ > div > .headerWrapper-3NUKsd > .title-3qD0b-,
-.videoControls-24w7Xp > .topControls-KKImPZ > div > .headerWrapper-3NUKsd > .transparent-2ZlE3R  {
-  box-shadow: none !important;
 }
   
 /* BLURPLE BEGONE BY PhenoM4n4n #7248 */
