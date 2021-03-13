@@ -3686,7 +3686,7 @@ span[class*="botTagRegular"] {
 	--scrollbar-thumb-dark: #f8f9fa !important;
 	--scrollbar-track-dark: --burple !important;
   }
-  }
+  
   ::-webkit-scrollbar {
 	  width: 10px;
 	  border-radius: 25px;
@@ -3764,4 +3764,3 @@ span[class*="botTagRegular"] {
   margin-left: 4px;
   margin-right: 3px;
 }
-  
