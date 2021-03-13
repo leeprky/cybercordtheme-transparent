@@ -3682,13 +3682,6 @@ span[class*="botTagRegular"] {
   max-width: 808px;
 }
 
-.container-2ax-kl span {
-    display: none;
-}
-.container-2ax-kl:after {
-    content:attr(aria-label);
-}
-
 .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
     background-color: #282a231e;
     display: inline-block;
