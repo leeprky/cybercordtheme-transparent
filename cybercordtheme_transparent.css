@@ -27,17 +27,14 @@
 	/* Should Glasscord send a request to your window compositor to blur behind Discord's window? */
 	/* It currently supports KWin only */
 	--glasscord-linux-blur: true;
-
-	/* The corner radius of the blurry background */
-	--glasscord-blur-corner-radius: 15px;
 	
-
 	/* Discord-specific properties */
 	/* Custom (forced) titlebar */
 	/* native (default), windows, osx, linux (framed) */
 	--glasscord-titlebar: osx;  
 }
 
+	/* The corner radius of the blurry background */
 body{
     background-color: transparent;
 }
@@ -60,12 +57,12 @@ body{
 	--background-secondary-alt: #30303000!important;
 	--background-tertiary: #12121388!important;
 	--background-accent: #f2f20498!important;
-	--background-floating: #16161870!important;
+	--background-floating: #16161867!important;
 	--background-attachments: #2f313640;
 	--background-search-bar: #3b3b3846;
-	--background-switcher: rgba(47, 49, 54, 0.418);
+	--background-switcher: #2f3136ff;
 	--background-chatbox: rgba(0, 0, 0, 0.089);
-	--background-lights-out: rgba(0, 0, 0, 0.253);
+	--background-lights-out: #000;
 	--background-pinned: rgb(28, 30, 32);
 	--background-profile-expand: #2f3136ff;
 	--background-emoji: rgba(43, 45, 53, 0.014);
@@ -74,7 +71,7 @@ body{
 	--background-modifier-selected: rgba(12, 12, 12, 0.267)!important;
 	--background-modifier-accent: hsla(61, 88%, 52%, 0.123)!important;
 	--channeltextarea-background: var(--background-accent)!important;
-	--deprecated-card-bg: rgba(0, 0, 0, 0.096)!important;
+	--deprecated-card-bg: rgba(0, 0, 0, 0.2)!important;
 	--deprecated-card-editable-bg: rgba(0, 0, 0, 0.1)!important;
 	--deprecated-text-input-bg: var(--background-tertiary)!important;
 	--deprecated-text-input-border: var(--background-floating)!important;
@@ -95,7 +92,7 @@ body{
 	--toast-contents: var(--background-secondary)!important;
 	--toast-box-shadow: rgba(0, 0, 0, 0.2)!important;
 	--toast-border: var(--background-tertiary)!important;
-	--scrollbar-auto-thumb: #1d1d1a28;
+	--scrollbar-auto-thumb: #1d1d1a4b;
 	};
 
 .username-1A8OIy, .headerName-fajvi9, .usernameFont-23TX-h, .headerNameWrapper-3res2c{
@@ -452,9 +449,9 @@ body{
   }
   .wordmark-2iDDfm:after {
     font-family: "Discord";
-    content: "CYBERCORD!";
+    content: "CYBERCORD";
     font-size: 15px;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(253, 253, 249, 0.158);
     background-size: 400% 400%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -502,6 +499,36 @@ body{
     }
 }
 
+.header-QKLPzZ .powercord-badge-cutie img:first-child{display: none !important}
+.header-QKLPzZ .powercord-badge-cutie img:last-child{display:block!important}
+[class^="profileBadge-2BqF-Z powercord-badge-"]{color:white!important}
+[class*="BadgeStaff"]{filter: brightness(10)!important}
+[class*="BadgePartner"]{filter: brightness(10)!important}
+[class*="BadgeHypesquad-"]{filter: brightness(10)!important}
+[class*="BadgeHypeSquadOnlineHouse1"]{filter: brightness(10)!important}
+[class*="BadgeHypeSquadOnlineHouse2"]{filter: brightness(10)!important}
+[class*="BadgeHypeSquadOnlineHouse3"]{filter: brightness(10)!important}
+[class*="BadgeBugHunter"]{filter: brightness(10)!important}
+[class*="BadgeVerifiedDeveloper"]{filter: brightness(10)!important}
+[class*="BadgeEarlySupporter"]{background-image:url("/assets/ce15562552e3d70c56d5408cfeed2ffd.svg")!important}
+[class*="BadgePremium"]{background-image:url("/assets/379d2b3171722ef8be494231234da5d1.svg")!important}
+[class*="GuildSubscriberlvl1"]{background-image:url("/assets/a86d7e56b8208da9f8623ac49fe822dc.svg")!important}
+[class*="GuildSubscriberlvl2"]{background-image:url("/assets/e85361cd599b6722548c5a5f003b4b78.svg")!important}
+[class*="GuildSubscriberlvl3"]{background-image:url("/assets/7a0be61e754af3353d0871070f46a9d6.svg")!important}
+[class*="GuildSubscriberlvl4"]{background-image:url("/assets/88f960f400930f109847d0335685de69.svg")!important}
+[class*="GuildSubscriberlvl5"]{background-image:url("/assets/a99def5f819c077e5e5061cab741b7e6.svg")!important}
+[class*="GuildSubscriberlvl6"]{background-image:url("/assets/2cfb317f3db3963d8ded9a97ee967bac.svg")!important}
+[class*="GuildSubscriberlvl7"]{background-image:url("/assets/278736f579d810b11ddf308cb598b19e.svg")!important}
+[class*="GuildSubscriberlvl8"]{background-image:url("/assets/38e40f25802a0fdf480d9b855a37a2f3.svg")!important}
+[class*="GuildSubscriberlvl9"]{background-image:url("/assets/cfbc2d8ceacfacf07850f986c8165195.svg")!important}
+.connectedAccountIcon-3P3V6F[alt*="Battle.net"]{content:url(/assets/3a257c4cab129e956b05bd50047eb0f9.png)}.connectedAccountIcon-3P3V6F[alt*=Facebook]{content:url(/assets/c926e69c482dac25b8e940db74496813.png)}.connectedAccountIcon-3P3V6F[alt*=GitHub]{content:url(/assets/9e2893717851c493b4bff518f8b63ee7.png)}.connectedAccountIcon-3P3V6F[alt*="League of Legends"]{content:url(/assets/fbbd224a0d94747c102515090682bbe1.png)}.connectedAccountIcon-3P3V6F[alt*=Reddit]{content:url(/assets/bcc7bc0c0b27f9cbadaa1a47ea79db22.png)}.connectedAccountIcon-3P3V6F[alt*=Spotify]{content:url(/assets/fe3770614c2658a07dea3ecb286ce745.png)}.connectedAccountIcon-3P3V6F[alt*=Skype]{content:url(/assets/de5fb9e860729912c65048c1c657e1a3.png)}.connectedAccountIcon-3P3V6F[alt*=Steam]{content:url(/assets/baf4bdd36b7ef74e8f34b402e66f81f4.png)}.connectedAccountIcon-3P3V6F[alt*=Twitch]{content:url(/assets/4c1bab3f945269a5c1be0b3a2c177141.png)}.connectedAccountIcon-3P3V6F[alt*=Twitter]{content:url(/assets/2ac50d286a1c883f28b5149239a8ad36.png)}.connectedAccountIcon-3P3V6F[alt*=YouTube]{content:url(/assets/0ef81742942677bcef0bebdfb7061d29.png)}.connectedAccountIcon-3P3V6F[alt*="Xbox Live"]{content:url(/assets/850ed4fcf5839b7a32651f5959e8511e.png)}
+
+.profileBadgeVerifiedDeveloper-4WY75k {
+	zoom: 120%;
+	position: relative;
+	top: -2px;
+  }
+  
 /* Profile when clicked in member list */
   /* footer colour */
   .flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0{
@@ -1011,7 +1038,7 @@ body{
 	margin-right: 20px;
   }
   .input-2A_zIr, .input-2A_zIr:hover {
-	  background-color: rgba(255,255,255,0);
+	  background-color: rgba(255, 255, 255, 0);
 	margin-left: 10px;
 	border-radius: var( --Roundness);
   }
@@ -1063,7 +1090,7 @@ body{
   }
 
   .backdrop-1wrmKB {
-    background: #0000005b !important;
+    background: #242424a4 !important;
     opacity: 1 !important;
 }
 .inner-1ilYF7 {
@@ -1079,33 +1106,33 @@ body{
     background: transparent !important;
 }
 .topSectionSpotify-1lI0-P {
-    background: #1db95496 !important;
+    background: #34bd64be !important;
 }
 .connectedAccount-36nQx7 {
     border: none;
-    background: #0000009c !important;
-    border-radius: 7px !important;
+    background: #0000006b !important;
+    border-radius: 15px !important;
 }
 .userInfoSection-2acyCx+.userInfoSection-2acyCx {
     border-top: transparent !important;
 }
 .topSectionNormal-2-vo2m {
-    background: #000000a8 !important;
+    background: #38caee86 !important;
 }
 .topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
     border-top: transparent !important;
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY {
-    background: #00000066 !important;
+    background: #6cc55dc0 !important;
     border-radius: 15px !important;
 }
 .lookInverted-2D7oAl.colorGreen-29iAKY {
-    background: #1db9545e !important;
+    background: #1db95462 !important;
     color: #fff !important;
     border-radius: 7px !important;
 }
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
-    background: rgba(29, 185, 84, 0.26) !important;
+    background: rgba(75, 202, 120, 0.26) !important;
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
     background: #7289daa8 !important;
@@ -1184,6 +1211,12 @@ body{
 /* Playing / Streaming Background */
 div[class*="headerPlaying"],
 div[class*="headerStreaming"] {
+    background-color: rgba(var(--alt-color)) !important;
+}
+
+/* Ping Colour */
+.listItem-2P_4kh.mentioned .item-2hkk8m,
+.wrapper-21YSNc.mentioned .item-2hkk8m{
     background-color: rgba(var(--alt-color)) !important;
 }
 
@@ -1424,11 +1457,6 @@ div[class*="tipTitle-"] {
     border-color: rgba(var(--alt-color)) !important;
 }
 
-/* Link underlines */
-.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
-    background-image: linear-gradient(0deg,transparent,transparent 1px, rgba(var(--alt-color)) 0,rgba(var(--alt-color)) 2px,transparent 0);
-}
-
 /* Date Picker */
 .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z,
 .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after,
@@ -1510,26 +1538,26 @@ div[class^="newMessagesBar-"],
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9,
 div[class^="dot-"],
 span[class*="botTagRegular"] {
-    background-color: rgba(var(--alt-color)) !important;
-    color: #fff !important;
-    border-color: rgba(var(--alt-color)) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: rgba(253, 243, 243, 0.884) !important;
+    border-color:  rgba(0, 0, 0, 0) !important;
 }
 
 .hasMoreButton-1MELpI {
-    color: rgba(var(--alt-color)) !important;
+    color: rgba(0, 0, 0, 0) !important;
 }
 
 .barButtonMain-3K-jeJ { display: none; }
 .jumpToPresentBar-G1R9s6 {
     display: block;
+	width: 0px;
     background-color: transparent;
 }
 .barButtonAlt-mYL1lj {
     float: right;
-    bottom: 1rem;
     z-index: 999; /* Forgive me CSS gods */
-    border-radius: 0.7rem;
-    background-color: rgba(36, 35, 35, 0.336);
+    border-radius: 1rem;
+    background-color: rgba(213, 216, 29, 0.74);
 }
 
 /* Liam The Protogen#2501 Code */ /* https://github.com/Controlfreak707/PowerAnimations */
@@ -3585,11 +3613,11 @@ span[class*="botTagRegular"] {
   /* CSS 2 */
   
   .item-3HknzM:nth-child(5){
-    background-color: rgba(10, 82, 85, 0.712) !important;
-}
+    background-color: rgba(230, 230, 230, 0) !important;
+};
 
 .item-3HknzM:hover{
-    background-color:rgba(51, 199, 204, 0.445)0 !important;
+    background-color:rgba(9, 51, 53, 0.288)0 !important;
 }
 
 .title-3qD0b-{
@@ -3662,12 +3690,12 @@ span[class*="botTagRegular"] {
 }
 
 .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
-    background-color: #23272a21;
+    background-color: #282a231e;
     display: inline-block;
     max-width: 650px;
     margin: 0;
     padding: 5px 10px ;
-    border-radius: 8px;
+    border-radius: 15px;
     position: relative;
     overflow: visible;
 };
@@ -3682,10 +3710,10 @@ span[class*="botTagRegular"] {
 }
 
 :root {
-	--burple: rgba(230, 228, 222, 0.459);
+	--burple: rgba(230, 228, 222, 0.089);
 	--scrollbar-thumb-dark: #f8f9fa !important;
 	--scrollbar-track-dark: --burple !important;
-  }
+  };
   
   ::-webkit-scrollbar {
 	  width: 10px;
@@ -3735,32 +3763,3 @@ span[class*="botTagRegular"] {
   .footer-1fjuF6 {
 	border-top: none;
   }
-
-.compact-T3H92H .messageContent-2qWWxC {
-    font-size: 0;
-}
-.compact-T3H92H .messageContent-2qWWxC::after {
-    content: "Please switch to cozy mode. You can do this via Settings ➜ Appearance ➜ Message Display and click 'Cozy'";
-    font-size: 16px;
-}
-.compact-T3H92H .username-1A8OIy {
-  font-size: 0;
-}
-.compact-T3H92H .username-1A8OIy::after {
-  content: "Clyde";
-  color: #fff;
-  font-size: 16px;
-}
-.compact-T3H92H .username-1A8OIy::before {
-  content: 'BOT';
-  color: #fff;
-  background: #7289da;
-  font-size: 10px;
-  font-weight: 500;
-  height: 1.28em;
-  padding: 1px 4px;
-  border-radius: 3px;
-  line-height: 1.3;
-  margin-left: 4px;
-  margin-right: 3px;
-}
