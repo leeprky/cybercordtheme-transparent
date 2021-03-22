@@ -52,3 +52,9 @@ MIT, see LICENSE.md for more details
 
 https://github.com/leeprky/slook-theme
 ![image](https://user-images.githubusercontent.com/71296232/112064906-a3b89580-8b5b-11eb-93c3-9f3e4ed2bc73.png)
+
+## OR
+
+https://github.com/leeprky/cybercordtheme-yellow
+![image](https://user-images.githubusercontent.com/71296232/112064949-b7fc9280-8b5b-11eb-89cd-687d58a47162.png)
+
