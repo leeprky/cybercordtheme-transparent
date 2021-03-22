@@ -47,3 +47,8 @@ MIT, see LICENSE.md for more details
 ## Previews
 
 ![preview](./previews/PreviewI.jpg)
+
+## MY OTHER THEMES
+
+https://github.com/leeprky/slook-theme
+![image](https://user-images.githubusercontent.com/71296232/112064906-a3b89580-8b5b-11eb-93c3-9f3e4ed2bc73.png)
