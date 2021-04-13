@@ -2,6 +2,7 @@
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
 @import url("https://poilerwags.github.io/Customa-Discord/Chat/radialstatus.m.css");
 @import url("https://raw.githack.com/leeprky/cybercordtheme-transparent/main/index.css");
+@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
 
 /* Use https://github.com/DiscordStyles/HorizontalServerList For Top Server List, It will automatically apply it */
 
@@ -45,6 +46,7 @@ body{
 
 
 .theme-dark{
+        --alt-color: 113, 137, 218 !important;
 	--background-primary: #2b2b2b00!important;
 	--background-secondary: #2e2d2d00!important;
 	--background-secondary-alt: #30303000!important;
