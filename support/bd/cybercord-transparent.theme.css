@@ -1,1 +1,419 @@
 
+/**
+ * @name Cybercord Transparent
+ * @author Leeprky
+ * @version 4.1
+ * @description Cybercord Transparent Theme
+ * @source https://github.com/leeprky/cybercordtheme-transparent
+ * @updateUrl https://github.com/leeprky/cybercordtheme-transparent/blob/main/support/bd/cybercord-transparent.theme.css
+ * @authorId 224524143482241035
+ * @invite Ff3rqAYB89
+ * @donate https://www.paypal.com/leeparkinson22
+ * @website https://leeprky.github.io/
+*/
+
+/* imports */
+@import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
+@import url("https://poilerwags.github.io/Customa-Discord/Chat/radialstatus.m.css");
+@import url("https://raw.githack.com/leeprky/cybercordtheme-transparent/main/index.css");
+@import url("https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css");
+
+/* Use https://github.com/DiscordStyles/HorizontalServerList For Top Server List, It will automatically apply it */
+
+
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
+
+.theme-dark{
+        --alt-color: 113, 137, 218 !important;
+	--background-primary: #2b2b2b00!important;
+	--background-secondary: #2d2d2e00!important;
+	--background-secondary-alt: #30303000!important;
+	--background-tertiary: #2b373b8c!important;
+	--background-accent: #f2f204ad!important;
+	--background-floating: #16161867!important;
+	--background-attachments: #2f313640;
+	--background-search-bar: #3b3b3846;
+	--background-switcher: #2f3136ff;
+	--background-chatbox: rgba(0, 0, 0, 0.089);
+	--background-lights-out: #000;
+	--background-pinned: rgb(28, 30, 32);
+	--background-profile-expand: #2f3136ff;
+	--background-emoji: rgba(43, 45, 53, 0.014);
+	--background-modifier-hover: rgba(12, 12, 12, 0)!important;
+	--background-modifier-active: rgba(12, 12, 12, 0.267)!important;
+	--background-modifier-selected: rgba(12, 12, 12, 0.267)!important;
+	--background-modifier-accent: hsla(61, 88%, 52%, 0.123)!important;
+	--channeltextarea-background: var(--background-accent)!important;
+	--deprecated-card-bg: rgba(0, 0, 0, 0.2)!important;
+	--deprecated-card-editable-bg: rgba(0, 0, 0, 0.1)!important;
+	--deprecated-text-input-bg: var(--background-tertiary)!important;
+	--deprecated-text-input-border: var(--background-floating)!important;
+	--deprecated-text-input-border-disabled: var(--background-tertiary)!important;
+	--activity-card-background: var(--background-primary)!important;
+	--channels-default: #9f9f9f77!important;
+	--text-muted: #b6b6b673!important;
+	--text-normal: #fbfbfb!important;
+	--text-lights-out: #f0f0f0;
+	--interactive-normal: #c8c8c8!important;
+	--interactive-hover: #dcddde!important;
+	--interactive-active: #fff!important;
+	--interactive-muted: #74747475!important;
+	--header-primary: white!important;
+	--header-secondary: #c9c9c9!important;
+	--toast-background: var(--background-primary)!important;
+	--toast-header: var(--background-tertiary)!important;
+	--toast-contents: var(--background-secondary)!important;
+	--toast-box-shadow: rgba(0, 0, 0, 0.2)!important;
+	--toast-border: var(--background-tertiary)!important;
+	--scrollbar-auto-thumb: #1d1d1a4b;
+	};
+
+.username-1A8OIy, .headerName-fajvi9, .usernameFont-23TX-h, .headerNameWrapper-3res2c{
+    font-weight: 1000 !important;
+    transition: filter .5s ease-in-out .5s;
+    filter: brightness(0) invert(1);
+    text-shadow: 0px 0px 5px;
+}
+.username-1A8OIy:hover, .headerName-fajvi9:hover, .usernameFont-23TX-h:hover, .headerNameWrapper-3res2c:hover {
+    filter: brightness(1) invert(0) !important;
+}
+
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
+/* EDIT COLOURS HERE */ 
+
+.auto-Ge5KZx::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+	background-color: transparent;
+	border: 4px solid transparent;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+	background-color: #20222586;
+}
+
+.theme-dark .container-1D34oG {
+	background-color: transparent;
+}
+
+.theme-dark .card-FDVird:before {
+	background-color: #33363c90;
+}
+
+.theme-dark .codeRedemptionRedirect-1wVR4b {
+	background-color: #2f313650;
+	border-color: #20222550;
+}
+
+.theme-dark .pageWrapper-1PgVDX {
+	background-color: transparent;
+};
+.withFrame-haYltI::after {
+	content: "";
+	width: 100%;
+	height: 4px;
+	background: var(--background-titlebar);
+	position: absolute;
+	left: 0; top: 0;
+	z-index: -1; /* Stay under the window buttons */
+}
+
+.container-1r6BKw {
+	padding-top: 0;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+	height: auto;
+	transform: translateY(12px);
+}
+
+.container-1r6BKw::after {
+	content: "";
+	position: absolute;
+	left: 0; top: -12px;
+	width: 100%;
+	height: 12px;
+	background: var(--background-secondary);
+}
+
+.premiumPromo-fVlLu- {
+	background-color: var(--background-secondary-chat);
+}
+
+.unread-3zKkbm {
+	height: 4px;
+	width: 4px;
+	margin-top: -2px;
+	border-radius: 2px 2px 2px 2px;
+}
+
+.jumpToPresentBar-9P20AM {
+	border-radius: 8px;
+	padding-bottom: 0;
+}
+
+.platform-win .sidebar-2K8pFh {
+	border-radius: 0;
+}
+
+.platform-osx .scroller-2TZvBN {
+    padding-top: 32px;
+    -webkit-mask: linear-gradient(#0000, #fff 32px);
+}
+
+.platform-osx .wrapper-1Rf91z {
+    margin-top: 0;
+}
+
+.typeMacOS-3EmCyP {
+    background-color: transparent !important;
+}
+
+.platform-osx .unreadMentionsIndicatorTop-gA6RCh {
+    top: 32px;
+}
+
+.platform-osx .back-1Ess-_ {
+    -webkit-app-region: no-drag;
+}
+
+.platform-osx .button-2PWmas {
+    -webkit-app-region: no-drag;
+}
+
+.platform-osx .toolbar-1t6TWx {
+    -webkit-app-region: no-drag;
+}
+
+
+.platform-osx .topic-TCb_qw {
+    -webkit-app-region: no-drag;   
+}
+
+.messagesPopoutWrap-1MQ1bW {
+	background-color: var(--background-pinned);
+}
+
+.notice-2FJMB4 {
+	background-color: var(--background-secondary) !important;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.contentWrapper-2txmjs {
+	background-color: var(--background-emoji);
+}
+
+.emojiPicker-3PwZFl {
+	background-color: var(--background-emoji) !important;
+}
+
+.app-2rEoOp {
+	background-color: transparent;
+}
+
+.divider-JfaTT5 {
+  border-top: none;
+}
+
+.isUnread-3Ef-o9 {
+	border-color: transparent !important;
+}
+
+.attachment-33OFj0 {
+	background-color: var(--background-attachments) !important;
+}
+
+.header-2V-4Sw {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.privateChannels-1nO12o {
+	background-color: transparent;
+}
+
+.root-SR8cQa {
+	background-color: var(--background-profile-expand);
+}
+
+.container-PNkimc {
+	background-color: transparent;
+}
+
+.container-3w7J-x {
+    background-color: transparent;
+}
+
+.inset-3sAvek {
+	background-color: var(--background-secondary) !important;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+	background-color: var(--background-secondary);
+}
+
+.wrapper-1Rf91z {
+	background-color: var(--background-secondary);
+}
+
+.childWrapper-anI2G9 {
+	background-color: var(--background-logo);
+}
+
+.circleIconButton-jET_ig {
+	background-color: var(--background-logo);
+}
+
+.searchBar-3dMhjb {
+	background-color: var(--background-search-bar);
+}
+
+.searchBar-6Kv8R2 {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.searchHeader-1l-wpR {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.channelName-1QajIf {
+	background-color: transparent;
+}
+
+.searchResult-3pzFAB:before {
+	background-image: none;
+}
+
+.searchResult-3pzFAB:after {
+	background-image: none;
+}
+
+.perksModal-fSYqOq {
+	background-color: transparent !important;
+}
+
+.ctaBar-2UsjF2 {
+	background-color: var(--background-attachments) !important;
+}
+
+.tierBody-16Chc9 {
+	background-color: var(--background-secondary-chat) !important;
+}
+
+.perk-2WeBWW {
+	background-color: var(--background-attachments) !important;
+}
+
+.content-yTz4x3:before {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.tabBody-3YRQ8W:before {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.container-19hC9u:before {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.container-xm7Ad0:before {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+	background-color: var(--background-search-bar);
+}
+
+.scroller-1JbKMe {
+	background-color: transparent;
+}
+
+.scroller-2TZvBN {
+	background-color: transparent;
+}
+
+.quickswitcher-3JagVE {
+	background-color: var(--background-switcher);
+}
+
+.wrapper-2aW0bm {
+	background-color: var(--background-primary-alt);
+}
+
+.searchResultMessage-2VxO12.hit-NLlWXA {
+	background-color: var(--background-primary-alt);
+}
+
+.scroller-zPkAnE {
+	background-color: transparent;
+}
+
+.embedFull-2tM8-- {
+	background-color: var(--background-attachments);
+}
+
+.messagesWrapper-3lZDfY {
+	margin-bottom: 8px;
+}
+
+.panels-j1Uci_ {
+	background-color: transparent;
+}
+
+.titleBar-AC4pGV {
+	background-color: var(--background-titlebar);
+}
+
+.uploadArea-3QgLtW {
+	background-color: var(--background-lights-out);
+}
+
+.backdropWithLayer-3_uhz4 {
+	background-color: var(--background-lights-out) !important;
+}
+
+.backdrop-1wrmKB {
+	background-color: var(--background-lights-out) !important;
+}
+
+.downloadLink-1ywL9o {
+	color: var(--text-lights-out) !important;
+}
+
+.bg-AYqtMd {
+	-webkit-mask-image: linear-gradient(#000f, #0000) !important;
+}
+
+.scrollableContainer-2NUZem {
+	background-color: var(--background-chatbox);
+}
+
+.members-1998pB {
+	background-color: var(--background-secondary);
+}
+
+.members-1998pB>div {
+	background-color: transparent;
+}
+
+.footer-1fjuF6 {
+	display: none;
+}
+
+.guilds-1SWlCJ {
+	background-color: var(--background-secondary);
+}
