@@ -20,30 +20,6 @@
     top: 5px;
   }
 
-/* color current channel cyan, and add arrow in front of it */
-[class*='modeSelected'] [class*='name']
-{
-    color: rgba(103, 255, 255, 0.925) !important; /* EDIT COLOURS HERE */ 
-    padding-left: 5px
-}
-
-[class*='modeSelected'] [class*='name']:before
-{
-    content: "-> ";
-}
-
-/* color unread channels lighter yellow, and add arrows after them */
-[class*='modeUnread'] [class*='name']
-{
-    color: #f2f204f1 !important; /* EDIT COLOURS HERE */ 
-    padding-left: 3px
-}
-
-[class*='modeUnread'] [class*='name']:after
-{
-    content: " <-";
-}
-
 .powercord-spotify .avatarWrapper-2yR4wp {
   
     animation-name: spin;
